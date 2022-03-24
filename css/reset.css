@@ -33,6 +33,8 @@ video,img {width: 100%;}
 .cf{*zoom:1;}
 .cf:after {display: block; content: ''; clear: both;}
 
+.fl{float: left;}
+
 
 
 /* IR 효과 */

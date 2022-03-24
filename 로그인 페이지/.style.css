@@ -1,6 +1,4 @@
 *{margin: 0; padding: 0;}
-header{margin: 50px 600px;}
-
 /* ------로그인------- */
 fieldset{width: 1200px; height: 589px; margin: 50px auto; border: 1px solid rgb(212, 208, 208); border-top: 2px solid #003881; font-family: 'NanumBarunGothic', sans-serif;}
 legend{display: none;}
