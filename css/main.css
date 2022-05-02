@@ -101,19 +101,19 @@ body{font-family: 'NanumBarunGothic', sans-serif;}
 #contents .news h2{text-align: center; font-size: 36px; padding-top: 66px; margin-bottom: 37px; font-weight: bold;}
 
 #contents>.news>.news{width: 100%;}
-#contents>.news>.news-menu>.news1box{width: 670px; margin: 0 auto;}
-#contents>.news>.news-menu>.news1box>li{float: left; width: 112px; border: 1px solid #7a8a92; border-radius: 30px; margin-right: 14px;margin-bottom: 44px; text-align: center; position: relative;}
-#contents>.news>.news-menu>.news1box>li>a{color: #7a8a92; padding: 8px 30px; display: block; font-size: 14px;}
-#contents>.news>.news-menu>.news1box>li.on{background: #fff; }
-#contents>.news>.news-menu>.news1box>li>.cal{position: absolute; top: 0; right: -880px; width: 160px; float: left; border-radius: 30px; background: #0098ff; margin-left: 155px;}
-#contents>.news>.news-menu>.news1box>li:nth-child(2)>.cal{right: -752px;}
-#contents>.news>.news-menu>.news1box>li:nth-child(3)>.cal{right: -624px;}
-#contents>.news>.news-menu>.news1box>li:nth-child(4)>.cal{right: -496px;}
-#contents>.news>.news-menu>.news1box>li:nth-child(5)>.cal{right: -368px;}
-#contents>.news>.news-menu>.news1box>li>.cal>a{padding: 9px 18px; font-size: 14px; display: block; color: #fff;}
+#contents>.news>.news1box{width: 670px; margin: 0 auto;}
+#contents>.news>.news1box>li{float: left; width: 112px; border: 1px solid #7a8a92; border-radius: 30px; margin-right: 14px;margin-bottom: 44px; text-align: center; position: relative;}
+#contents>.news>.news1box>li>a{color: #7a8a92; padding: 8px 30px; display: block; font-size: 14px;}
+#contents>.news>.news1box>li.on{background: #fff; }
+#contents>.news>.news1box>li>.cal{position: absolute; top: 0; right: -880px; width: 160px; float: left; border-radius: 30px; background: #0098ff; margin-left: 155px;}
+#contents>.news>.news1box>li:nth-child(2)>.cal{right: -752px;}
+#contents>.news>.news1box>li:nth-child(3)>.cal{right: -624px;}
+#contents>.news>.news1box>li:nth-child(4)>.cal{right: -496px;}
+#contents>.news>.news1box>li:nth-child(5)>.cal{right: -368px;}
+#contents>.news>.news1box>li>.cal>a{padding: 9px 18px; font-size: 14px; display: block; color: #fff;}
 
 #contents .news .news2{display: none; width: 100%; clear: both;}
-#contents .news .news2.active{display: block;}
+#contents .news .news2.on{display: block;}
 
 #contents .news ul .newsbox{width: 16.666%; height: 362px; float: left;}
 #contents .news ul .newsbox .news3{width: 282px; height: 362px; margin: 0 auto; background: #fff; padding: 25px; box-sizing: border-box;}
@@ -127,13 +127,10 @@ body{font-family: 'NanumBarunGothic', sans-serif;}
 #contents .news ul .newsbox .news3 .news3date{font-size: 14px; position: absolute; bottom: 26px; left: 27px; color: #525252;}
 
 #contents .notice .info1{width: 480px; height: 270px; padding-top: 86px; float: left;}
-#contents .notice .info1 .notice-slide{width: 480px; height: 270px; float: left; position: relative; left: 0; overflow: hidden;}
-#contents .notice .info1 .notice-slide li{position: absolute; left: 0;}
-#contents .notice .info1 .notice-slide li:nth-child(2){left: 100%;}
-#contents .notice .info1 .notice-slide li:nth-child(3){left: 200%;}
-#contents .notice .info1 .notice-slide li:nth-child(4){left: 300%;}
-#contents .notice .info1 .notice-slide li:nth-child(5){left: 400%;}
-#contents .notice .info1 .notice-slide li:nth-child(6){left: 500%;}
+#contents .notice .info1 .notice-slide{width: 480px; height: 270px; float: left; position: relative; left: 0; top:0; overflow: hidden;}
+#contents .notice .info1 .notice-slide li{position: absolute; left: 100%; top: 0; width: 100%; height:100%;}
+#contents .notice .info1 .notice-slide li:first-child{left:0}
+
 #contents .notice .info1 .arrow{width: 93px; height: 30px; background: #fff; float: left;}
 #contents .notice .info1 .arrow img{width: 30px; height: 30px; display: block; float: left; margin-right:1px;}
 #contents .notice .info1 .number{width: 387px; height: 30px; background: #333; float: left; padding: 0 10px; box-sizing: border-box; line-height: 30px; color: #fff; letter-spacing: .2em;}
@@ -216,7 +213,7 @@ body{font-family: 'NanumBarunGothic', sans-serif;}
 #footer h3{float: left; line-height: 80px; padding: 0 20px 0 31px; color: #3c3c3c;}
 #footer .arrowbox img{margin-top: 26px;  border: 1px solid #a5a5a5; box-sizing: border-box; display: block; float: left;}
 #footer .arrowbox .brnone{border-right: none;}
-#footer .sitelist ul{float: left; margin-left: 43px; line-height: 80px;}
+#footer .sitelist ul{float: left; padding-left: 43px; line-height: 80px; width: 817px; overflow: hidden;}
 #footer .sitelist ul li{float: left; text-align: center;}
 #footer .sitelist ul li a{color:#666;}
 #footer .sitelist ul li a::after{content: "|"; margin: 0 20px 0 20px;}
