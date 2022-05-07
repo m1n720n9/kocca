@@ -1,6 +1,5 @@
 @charset "utf-8";
-@import url(http://www.openhiun.com/hangul/nanumbarungothic.css);
-body{font-family: 'NanumBarunGothic', sans-serif;}
+
 /* 레이아웃 */
 #header{width: 100%; height: 180px;}
 #header .header-inner{width: 1200px; height: 180px; margin: 0 auto;}
@@ -81,7 +80,6 @@ body{font-family: 'NanumBarunGothic', sans-serif;}
 .contents .con-banner{width: 1200px; margin: 20px auto 0; padding: 60px; background:#eef1f5 url(../img/sub/customer_title_bg.png) no-repeat top right;  box-sizing: border-box;}
 .contents .con-banner>p{font-size: 25px; line-height: 130%; }
 .contents .categorytab{margin-top: 40px;}
-.contents .categorytab>li{}
 .contents .categorytab>li>a{border: 1px solid #666; padding: 12px 30px; display: inline-block; font-size: 14.3px; color: #333; border-bottom: 1px solid #fff;}
 .contents .category{border: 1px solid #666; border-top: 1px solid #ddd;; margin-bottom: 20px; padding: 15px;}
 .contents .category>a{font-size: 16px; display: inline-block; margin: 0 12px; padding: 10px 0;}

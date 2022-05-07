@@ -1,6 +1,5 @@
 @charset "utf-8";
-@import url(http://www.openhiun.com/hangul/nanumbarungothic.css);
-body{font-family: 'NanumBarunGothic', sans-serif;}
+
 /* 레이아웃 */
 #header{width: 100%; height: 180px; border-bottom:1px  solid #ddd; }
 #header .header-inner{width: 1200px; height: 180px; margin: 0 auto;}
